@@ -60,7 +60,7 @@ def fetch_flights(token: str) -> pd.DataFrame:
         "on_ground", "velocity",
         "true_track", "vertical_rate", "sensors",
         "geo_altitude", "squawk", "spi",
-        "position_source", "category",
+        "position_source"
     ]
 
     df = pd.DataFrame(states, columns=columns)
